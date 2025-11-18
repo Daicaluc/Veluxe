@@ -1,0 +1,143 @@
+<html class="moveable">
+    <head>
+        <meta charset="utf-8">
+        <title>Veluxe | Producto</title>
+        <link rel="shortcut icon" href="./images/Veluxe logo(1).png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="./mj-producto1.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <h1>Veluxe</h1>
+        </header>
+        <!--TITULO DE CATEGORIA/PRODUCTO-->
+        <div class="container-titulo">Relojes</div>
+
+        <main>
+            <div class="container">
+                <input type="checkbox" id="zoomCheck">
+                <label for="zoomCheck">
+                  <img src="../../images/mj-producto1.png"> <!--IMAGEN DE PRODUCTO-->
+                </label>
+            </div>
+            <div class="container-info-producto">
+                <div class="container-precio">
+                    <span><b>00.00€</b></span> <!--PRECIO DE PRODUCTO-->
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <div class="container-details-productos">
+                    <div class="form-group">
+                        <label for="colour">Color</label>
+                        <select name="colour" id="colour">
+                            <option disabled selected value=""> <!--ALTERNATIVAS DE PRODUCTO-->
+                                Escoge una opción
+                            </option>
+                            <option value="plateado">Plateado</option>
+                            <option value="dorado">Dorado</option>
+                        </select>
+                    </div>
+                    <div data-testid="option-box__Viva Magenta" data-wa-hit-type="event" data-wa-event-category="product detail page" data-wa-event-action="variations" data-wa-event-label="744aee6e-8de9-4943-9486-6284ae440510" data-wa-event-value="" data-wa-event-non-interaction="false" class="sc-kcgnCw ibqVoc">
+                        <div class="sc-bZpZnO iJXNHj">
+                            <div color="#FF00FF" class="sc-aeBcf gwDfWS" data-darkreader-inline-color="" style="--darkreader-inline-color: #ff1aff;">
+                            </div>
+                        </div>
+                </div>
+                    <!--<button class="btn-clean">Limpiar</button>-->
+                </div>
+
+                <div class="container-add-cart">
+                    <div class="container-quantity"> <!--BOTON DE CANTIDAD-->
+                       <input 
+                            type="number" 
+                            placeholder="1" 
+                            value="1" 
+                            min="1"
+                            class="input-quantity"
+                        />
+                        <div class="btn-increment-decrement">
+                            <i class="fa-solid fa-chevron-up" id="increment"></i>
+                            <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                        </div>
+                    </div>
+                    <button class="button btn-add-to-cart"> <!--AÑADIR AL CARRITO-->
+                        <i class="fa-solid fa-plus"></i>
+                        Añadir al carrito
+                    </button>
+                </div>
+
+                <div class="container-description">
+                    <h4>Descripcion</h4>
+                    <p>
+                        Imagina un reloj de pulsera meticulosamente diseñado, una obra maestra de la ingeniería y el arte. Su caja, elaborada con oro blanco de 18 quilates, es tan brillante que parece capturar la luz a su alrededor, y está adornada con diamantes incrustados en el bisel, lo que añade un toque de elegancia y opulencia. La esfera exhibe un diseño exquisito, con marcadores de hora en números romanos o tal vez en diamantes, rodeados por un intrincado patrón guilloché que muestra el compromiso con la artesanía más fina. Las manecillas, delgadas y elegantes, parecen deslizarse sin esfuerzo sobre la esfera, impulsadas por un movimiento mecánico suizo de alta precisión, visible a través de un cristal de zafiro en la parte posterior del reloj. Cada detalle, desde la corona grabada hasta la hebilla del brazalete, emana lujo y exclusividad, haciendo de este reloj no solo una herramienta para medir el tiempo, sino una declaración de estatus y buen gusto.</p>
+                </div>
+
+                <!--<div class="container-description"> DESCRIPCIONES/INFORMACION
+                    <div class="title-description">
+                        <h4>Descripcion</h4>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="text-description">
+                        <p>
+                            Esto sera la descripcion del producto
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container-additional-information">
+                    <div class="title-additional-information">
+                        <h4>Informacion adicional</h4>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="text-additional-information hidden">
+                        <p>------------------</p>
+                    </div>
+                </div>-->
+            </div>
+        </main>
+
+
+
+        <script
+            src="https://kit.fontawesome.com/81581fb069.js"
+            crossorigin="anonymous">
+        </script>
+        <script src="./style/veluxe-producto.js"></script>
+
+    </body>
+    <footer class="site-footer">
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="col-sm-12 col-md-6">
+                    <img src="./images/Veluxe logo(1).png" width="180">
+                    <h6>VELUXE</h6>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <h6>Tienda</h6>
+                    <ul class="footer-links">
+                        <li><a href="">Categoria1</a></li>
+                        <li><a href="">Categoria2</a></li>
+                        <li><a href="">Categoria3</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <h6>Empresa</h6>
+                    <ul class="footer-links">
+                        <li><a href="">Login</a></li>
+                        <li><a href="">Informacion</a></li>
+                        <li><a href="">Contacto</a></li>
+                        <li><a href="">Terminos y Condiciones</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bg-light py-3">
+            <div class="container text-center">
+                <p class="text-muted mb-0 py-2">© 2024 VELUXE All rights reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+</html>
