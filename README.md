@@ -60,5 +60,5 @@ Un punto clave de este proyecto fue la creación del reloj desde cero. Se model�
 ## Contacto
 Si te interesa mi perfil híbrido entre desarrollo y diseño 3D, hablemos:
 
-* [Tu LinkedIn](linkedin.com/in/danicasadomanza)
-* [Tu Email](danicasadomanza@gmail.com)
+* [LinkedIn](linkedin.com/in/danicasadomanza)
+* [Email](mailto:danicasadomanza@gmail.com)
