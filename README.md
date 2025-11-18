@@ -1,14 +1,12 @@
-Desarrollo frontend de un e-commerce de relojería de alta gama, creado como proyecto final de ciclo en equipo. El foco principal reside en la experiencia de usuario (UX/UI), logrando una estética lujosa y minimalista mediante una maquetación cuidada y el uso de animaciones fluidas que transmiten exclusividad.
-
+# Resumen
 Desarrollo frontend de un e-commerce de relojería de alta gama, creado como proyecto final de ciclo en equipo. El foco principal reside en la experiencia de usuario (UX/UI), logrando una estética lujosa y minimalista mediante una maquetación cuidada y el uso de animaciones fluidas que transmiten exclusividad.
 
 # Veluxe
-
-> Una experiencia de e-commerce inmersiva donde desarrollo web y diseño 3D se unen.
+Una experiencia de e-commerce inmersiva donde desarrollo web y diseño 3D se unen.
 
 <img src="./FotosMuestra/VeluxeLogo.png" width="200px" alt="Logo Veluxe">
 
-Puedes visitar la web en funcionamiento aquí: **[🔗 Ver Proyecto Online](https://daicaluc.github.io/Veluxe)**
+Puedes visitar la web en funcionamiento aquí: **[🔗 Ver Proyecto Online](https://daicaluc.github.io/Veluxe/)**
 
 ---
 
